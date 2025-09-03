@@ -82,7 +82,7 @@ export default function Home() {
                 </table>
             </div>
 
-            {/* Pagination */}
+
             <div className="flex justify-between items-center mt-6">
                 <button
                     onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
